@@ -1,14 +1,19 @@
-export const data = [
+ const questions = [
   {
     id: 1,
     prompt: "lorem testum 1",
-    answers: ["choice 1", "choice 2", "choice 3", "choice 4"],
-    correctIndex: 0,
+    answers: ["one", "two", "three", "four"],
+    correctIndex: 1,
   },
   {
     id: 2,
     prompt: "lorem testum 2",
-    answers: ["choice 1", "choice 2", "choice 3", "choice 4"],
+    answers: ["a", "b", "c", "d"],
     correctIndex: 2,
   },
 ];
+
+export default questions;
+
+
+
